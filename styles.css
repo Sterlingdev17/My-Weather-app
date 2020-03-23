@@ -1,0 +1,19 @@
+body  {
+    background-color: #d1c8e1;
+}
+.display-4{
+    text-align: center;
+
+}
+.jumbotron{
+    background-color: skyblue;
+   
+}
+.col-md-3{
+    height: 500px;
+    background-color: white;
+}
+.card{
+    float: left;
+    margin: 3px;
+}
