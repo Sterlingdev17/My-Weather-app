@@ -15,58 +15,36 @@
 <body>
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">YOUR DAILY WEATHER</h1>
+            <h1 class="display-4">YOUR DAILY WEATHER </h1>
         </div>
     </div>
     <div class="row">
         <div class="col-md-3">
             <nav class="navbar navbar-light bg-light">
                 <form class="form-inline">
-                    <input class="form-control mr-md-2" id="userInput" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control mr-md-2" id="userInput" type="search" placeholder="Search"
+                        aria-label="Search">
                     <button type="button" class="btn btn-primary" id="search">Primary</button>
                     <!-- put out search temperature-->
             </nav>
         </div>
         <div class="col-md-9">
-            <p class="City"></p>
-            <p class="description"></p>
-            <p class="temp"></p>
-            <p class="hum"></p>
-            <p class="wind"></p>
-            <p class="UV"></p>
+            <div class="dash1">
+                <p class="City"></p>
+                <div id="icon"></div>
+                <p class="description"></p>
 
-                <div class="card" style="width: 16rem;">
-                    <img class="card-img-top"  alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 16rem;">
-                    <img class="card-img-top"  alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 16rem;">
-                    <img class="card-img-top"  alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 16rem;">
-                    <img class="card-img-top"  alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 16rem;">
-                    <img class="card-img-top"  alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
+            </div>
+            <div class="dash">
+                <p class="temp"></p>
+                <p class="hum"></p>
+                <p class="wind"></p>
+                <p class="UV"></p>
+            </div>
+            <div id="forecast"></div>
+
         </div>
-       
+
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>

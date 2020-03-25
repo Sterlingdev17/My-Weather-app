@@ -1,19 +1,42 @@
 body  {
     background-color: #d1c8e1;
+    background-image: url("gcool.jpg");
+   
+}
+
+
 }
 .display-4{
     text-align: center;
 
 }
+
+
+h1{
+    text-align: center;
+}
 .jumbotron{
-    background-color: skyblue;
+    
+    background-image: url("back101.jpeg");
    
 }
 .col-md-3{
-    height: 500px;
+    
     background-color: white;
 }
 .card{
     float: left;
     margin: 3px;
+}
+.dash1{
+    font-size: 35px;
+    font-family: sans-serif;
+    
+}
+.dash{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    width: 150px;
 }
